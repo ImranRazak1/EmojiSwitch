@@ -17,6 +17,8 @@
 		B6166C13273C336C0026409F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6166BE9273C336A0026409F /* ContentView.swift */; };
 		B6166C14273C336C0026409F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6166BEA273C336C0026409F /* Assets.xcassets */; };
 		B6166C15273C336C0026409F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6166BEA273C336C0026409F /* Assets.xcassets */; };
+		B6F841B92742E3240021FDF9 /* EmojiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F841B82742E3240021FDF9 /* EmojiData.swift */; };
+		B6F841BB2742E5920021FDF9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F841BA2742E5920021FDF9 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B6166C08273C336C0026409F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6166C0C273C336C0026409F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B6166C0E273C336C0026409F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		B6F841B82742E3240021FDF9 /* EmojiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiData.swift; sourceTree = "<group>"; };
+		B6F841BA2742E5920021FDF9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				B6166BE8273C336A0026409F /* EmojiSwitchApp.swift */,
 				B6166BE9273C336A0026409F /* ContentView.swift */,
+				B6F841BA2742E5920021FDF9 /* CardView.swift */,
+				B6F841B72742E3020021FDF9 /* EmojiData */,
 				B6166BEA273C336C0026409F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +145,14 @@
 				B6166C0E273C336C0026409F /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		B6F841B72742E3020021FDF9 /* EmojiData */ = {
+			isa = PBXGroup;
+			children = (
+				B6F841B82742E3240021FDF9 /* EmojiData.swift */,
+			);
+			path = EmojiData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +314,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6166C12273C336C0026409F /* ContentView.swift in Sources */,
+				B6F841B92742E3240021FDF9 /* EmojiData.swift in Sources */,
+				B6F841BB2742E5920021FDF9 /* CardView.swift in Sources */,
 				B6166C10273C336C0026409F /* EmojiSwitchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
